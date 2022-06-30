@@ -20,4 +20,4 @@ app.use(shopRoutes);
 
 app.use(get404);
 
-app.listen(port);
+app.listen(process.env.PORT || port);
